@@ -1,0 +1,284 @@
+body {
+    min-width: 800px;
+    font-family: 'Poppins', sans-serif;
+    background-color: lightgrey;
+ }
+ 
+ body {
+   
+     background-image:url('../img/azul.gif');
+     background-size:100%;
+     background-repeat: repeat-y;
+     background-attachment: fixed;
+     height:100%;
+     width:100%;
+     margin-top: 0%;
+ }
+ 
+ h1 {
+    padding-top: 40px;
+    font-size: 2em;
+    font-weight: normal;
+    
+    }
+ 
+ h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(0,0,50);
+    }
+ 
+ 
+ p {
+    margin: 5px;
+    font-size: 1.1em;
+    }
+ 
+ a {
+    font-weight: bold;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: rgb(235, 229, 229);
+    }
+ 
+ hr {
+     display: none;
+   }
+ 
+ table {
+   background-color: rgb(10,10,20);
+   border-width: 3px;
+   border-color: rgb(10,10,20);
+   border-style: solid;
+   margin-left: 2em;
+ }
+ 
+ td, th {
+   padding: 2px;
+   /* background-color: rgb(255,255,200); */
+ }
+ 
+ th {
+   font-variant: small-caps;
+ }
+ 
+ header, footer {
+    width: 100%;
+    color: rgb(255,255,200);
+    background-color: rgb(50,50,100);
+    text-align: center;
+ }
+ 
+ header {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: white;
+    margin-bottom: 0px;
+ }
+ 
+ header h2 {
+     color: white;
+ }
+ 
+ footer {
+     margin-top: 0.2em;
+     padding: 0.5em;
+ }
+ a:link {
+   color: rgb(0, 0, 0) !important;
+   text-decoration:none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+.dropmenu {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .dropmenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropmenu li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .dropmenu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .dropmenu li a:hover {
+    background-color: #121ca8;
+  }
+  
+  .dropmenu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  
+  .dropmenu ul li:hover > ul {
+    display: inherit;
+  }
+  
+  .dropmenu ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  .dropmenu ul ul a {
+    padding: 10px 15px;
+    color: #333;
+  }
+  
+  .dropmenu ul ul a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropmenu > ul > li {
+    border-right: 1px solid #ccc;
+  }
+  
+  .dropmenu > ul > li:last-child {
+    border-right: none;
+  }
+  
+  .dropmenu > ul > li > a {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  
+  .dropmenu ul ul li:first-child > a {
+    border-top: 1px solid #ccc;
+  }
+  
+  .dropmenu ul ul li:last-child > a {
+    border-bottom: 1px solid #ccc;
+  }
+  
+
+
+
+
+
+
+
+
+
+  section {
+   margin-left: 10%;
+   margin-right: 10%;
+   border-style: ridge;
+   border-width: 5px;
+   border-color: white;
+   padding: 1em;
+background-color: lightgrey;
+   }
+
+section p {
+   text-indent: 2em;
+   text-align: justify;
+   }
+   
+
+
+
+  
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2 !important;
+}
+
+.apple {
+  background-color: #a8e6cf !important;
+}
+
+.dell {
+  background-color: #ffcccc !important;
+}
+
+.hp {
+  background-color: #ffc0cb !important;
+}
+
+.lenovo {
+  background-color: #b39ddb !important;
+}
+
+.asus {
+  background-color: #51a151 !important;
+}
+
+.acer {
+  background-color: #ffcc80 !important;
+}
+
+
+/* Estilo das colunas */
+table td:nth-child(1) {
+   background-color: rgb(189, 18, 18); /* Vermelho */
+}
+
+.tableEmpresa > tbody > tr > td:nth-child(2) {
+  background-color: #3cc01b; /* Verde */
+}
+
+.hotbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+nav {
+    position: sticky;
+    top: 0px;
+      width: 100%;
+    z-index: 999;
+    border-width: 100px
+  
+  }
