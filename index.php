@@ -56,7 +56,7 @@
     <p>O processador é o "cérebro" do computador, responsável por executar as instruções e operações necessárias para o funcionamento do sistema.</p>
 
     <h2>Placa de vídeo</h2>
-    <p>As placas de vídeo são peças de hardware que transmitem as imagens para o monitor. São chamadas de processadores gráficos, pois processam os dados e os transformam em imagem.<p>
+    <p>As placas de vídeo são peças de hardware que transmitem as imagens para o monitor. São chamadas de processadores gráficos, pois processam os dados e os transformam em imagem no monitor.<p>
     
     <h2>Memória RAM</h2>
     <p>A memória RAM é responsável por armazenar temporariamente as informações necessárias para a execução dos programas, permitindo que o computador tenha um acesso mais rápido às informações.</p>
