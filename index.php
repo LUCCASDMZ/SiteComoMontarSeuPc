@@ -27,7 +27,7 @@
 					<ul>
 						<li><a href="./PLACAMAE.php"><img src="./src/img/MAE.png" width="24" height="20">Placa Mãe</a></li>
 						<li><a href="./processador.php"><img src="./src/img/processador.png" width="24" height="20">Processador</a></li>
-						<li><a href="./memoriaram.php"><img src="./src/img/ram.png" width="24" height="20">Memória RAM</a></li>
+						<li><a href="./memoriaram.php"><img src="./src/img/ram.png" width="24" height="20">Memória Ram</a></li>
 						<li><a href="./placadevideo.php"><img src="./src/img/placavideo.png" width="24" height="20">Placa de video</a></li>
 						<li><a href="./disco.php"><img src="./src/img/ssd.png" width="24" height="20">Disco Rígido</a></li>
 						<li><a href="./fonte.php"><img src="./src/img/fonte.png" width="24" height="20">Fonte de Alimentação</a></li>
